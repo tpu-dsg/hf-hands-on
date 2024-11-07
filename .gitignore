@@ -1,0 +1,11 @@
+# uv
+.venv/
+
+# ruff
+.ruff_cache/
+
+# model
+checkpoint-*/
+src/**/*config.json
+*.safetensors
+*.bin
