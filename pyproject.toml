@@ -9,7 +9,6 @@ dependencies = [
     "albumentations==1.4.21",
     "datasets==3.0.2",
     "evaluate==0.4.3",
-    "nbdev==2.3.31",
     "numpy==1.26.4",
     "pandas==2.2.3",
     "pillow==11.0.0",
