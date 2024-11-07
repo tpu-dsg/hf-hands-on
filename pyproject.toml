@@ -1,0 +1,29 @@
+[project]
+name = "hf-hands-on"
+version = "0.1.0"
+description = "play with huggingface"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate==1.1.1",
+    "albumentations==1.4.21",
+    "datasets==3.0.2",
+    "evaluate==0.4.3",
+    "nbdev==2.3.31",
+    "numpy==1.26.4",
+    "pandas==2.2.3",
+    "pillow==11.0.0",
+    "scikit-learn==1.5.2",
+    "torch==2.3.0",
+    "torchvision==0.18.0",
+    "transformers==4.46.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.5",
+    "nbdev>=2.3.31",
+    "ruff>=0.7.1",
+    "setuptools>=75.3.0",
+]
