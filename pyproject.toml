@@ -8,7 +8,7 @@ dependencies = [
     "accelerate==1.1.1",
     "albumentations==1.4.24",
     "datasets==3.0.2",
-    "evaluate==0.4.3",
+    "evaluate==0.4.5",
     "numpy==1.26.4",
     "pandas==2.2.3",
     "pillow==11.0.0",
